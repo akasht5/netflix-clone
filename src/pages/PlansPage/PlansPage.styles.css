@@ -1,0 +1,143 @@
+.plansPage{
+    min-height: 100vh;
+    background-color: white;
+}
+
+.plansNav{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid rgb(220, 220, 220);
+    height: 90px;
+}
+
+.plansNav img{
+    width: 210px;
+    margin-left: 15px;
+    position: absolute;
+    top:-17px;
+}
+
+.signInLink{
+    margin-right: 35px;
+    margin-top: 30px;
+    cursor: pointer;
+    height:25px;
+}
+
+.signInLink a{
+    font-weight: 600;
+    color: black;
+}
+
+.plans__container{
+    width: 850px;
+    margin: 20px auto;
+}
+
+.plans__container p{
+    font-size: 13px;
+    color: rgb(104, 104, 104);
+}
+
+.chooseTitle{
+    font-weight: 600;
+    font-size: 22px;
+}
+
+.choosePlan span{
+    font-size: 16px;
+    margin-left: 30px;
+}
+
+.planInputs{
+    display: flex;
+    width: 100%;
+    display: flex;
+    justify-content: end;
+    margin-top: 25px;
+}
+
+.planInputs input[type="radio"]{
+   display: none;
+}
+
+.planInputs label div{
+    background-color: rgb(251, 138, 138);
+    color: white;
+    height: 115px;
+    width: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 30px;
+    border-radius: 3px;
+    position: relative;
+    cursor: pointer;
+    font-size: 17px;
+}
+
+.planInputs input[type="radio"]:checked + label div::after{
+    content: '';
+    width: 0;
+    height: 0;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-top: 15px solid red;
+    position: absolute;
+    bottom: -15px;
+}
+
+.planInputs input[type="radio"]:checked + label div{
+    background-color: rgb(255, 0, 0);
+    box-shadow: 1px -1px 80px -1px rgba(5, 2, 2, 0.15) inset;
+}
+
+.subscribeButton{
+    background-color: rgb(255, 0, 0);
+    border: none;
+    color: white;
+    width: 250px;
+    padding: 10px 0;
+    cursor: pointer;
+    margin-left: 35%;
+    margin-top: 25px;
+    margin-bottom: 100px;
+}
+
+.planDetails{
+    border-collapse:collapse;
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: rgb(104, 104, 104);
+    font-size: 16px;
+}
+
+.planDetails tr{
+    height: 60px;
+}
+
+.planDetails .row{
+    border-bottom: 1px solid rgb(190, 190, 190);
+    color: rgb(104, 104, 104);
+}
+
+.planDetails th{
+    text-align: start;
+    font-weight: 400;
+    width: 420px;
+}
+
+.planDetails td{
+    text-align: center;
+}
+
+.column{
+    width: 140px;
+}
+
+.devices td{
+    font-size: 10px;
+    margin: 20px 0;
+}
+

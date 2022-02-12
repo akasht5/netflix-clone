@@ -1,0 +1,32 @@
+.wrap-collapsible{
+    width: 100%;
+    background-color: rgb(30, 30, 30);
+    padding: 20px 0;
+    margin-bottom:10px; 
+}
+
+.collapsible-question{
+    position: relative; 
+}
+
+.collapsible-label{
+    padding: 0 30px;
+    cursor: pointer;
+}
+
+.accordion-sign{
+    position:absolute;
+    top: -6px;
+    right: 20px;
+    font-size: 25px;
+    cursor:pointer;   
+}
+
+.collapsible-content .content-inner{
+    padding: 10px 30px;
+    margin-top:5px;
+}
+
+.collapsible-content {
+    transition: all .25s ease-in-out;
+}

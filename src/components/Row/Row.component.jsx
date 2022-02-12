@@ -27,8 +27,8 @@ const Row = (props) => {
                     data.map((movie) => (
                         ((isLarge && movie.poster_path) || 
                          (!isLarge && movie.backdrop_path)) && (
-                            <div className="list__item">
-                            <img className={!isLarge && 'isImage'} src={`https://image.tmdb.org/t/p/original/${isLarge ? movie.poster_path : movie.backdrop_path}`} alt={movie.name} />
+                            <div className="list__item" key={movie.id}>
+                                <img className={!isLarge ? 'isImage' : null} src={`https://image.tmdb.org/t/p/original/${isLarge ? movie.poster_path : movie.backdrop_path}`} alt={movie.name} />
                             </div>
                         )
                     )

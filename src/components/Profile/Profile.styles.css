@@ -1,0 +1,88 @@
+.profile{
+    height: 100vh;
+}
+
+.profile__wrapper{
+    height: 100%;
+    background-color: #ffffff;
+}
+
+.profile h1{
+    font-weight: 400;
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
+.profile__container{
+    width:800px;
+    margin: 0 auto;
+    padding-top: 150px;
+}
+
+.profile__details{
+    display: flex;
+    width: 100%;
+    margin-top: 25px 0;
+    padding: 10px 0;
+}
+
+.info__title{
+    width: 400px;
+    color: rgb(153, 153, 153);
+    font-weight: 500;
+}
+
+.profile__info{
+    width: 100%;
+    overflow: hidden;
+    font-size: 17px;
+    margin-top: 4px;
+}
+
+.renewalDate{
+    margin-top: 7px;
+}
+
+.profile__email{
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.profile__plans{
+    font-size: 15px;
+    margin: 10px 0;
+}
+
+.planInfo{
+    display: flex;
+    justify-content: space-between;
+}
+
+.rightButton{
+    color: rgb(0, 119, 255);
+}
+
+.bold{
+    font-weight: 600;
+}
+
+.cancelButton{
+    padding: 10px 30px;
+    margin: 10px 0;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: rgb(226, 226, 226);
+}
+
+.signOut{
+    background-color: #e50914;
+    border: none;
+    color: white;
+    padding: 7px 0;
+    width: 540px;
+    cursor: pointer;
+    border-radius: 3px;
+    margin-top: 50px;
+    margin-left: 260px;
+}

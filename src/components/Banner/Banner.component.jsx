@@ -10,7 +10,7 @@ const Banner = () => {
     const truncate = (string, n) => {
         return string ? string.length > n ? string.substr(0,n-1) + ' ...' : string : 'No description'
     }
-
+    
     useEffect(() => {
         const fetchMovie = async () => {
             const res = await axios.get(requests.fetchTrending);
@@ -23,8 +23,6 @@ const Banner = () => {
         }
         fetchMovie();
     },[])
-
-    console.log(movie);
 
     if(movie){
         return (

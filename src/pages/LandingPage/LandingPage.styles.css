@@ -1,0 +1,135 @@
+.hero__banner{
+    height:745px;
+    background-color: lightblue;
+    background-image: url('https://assets.nflxext.com/ffe/siteui/vlv3/45e6f443-8eff-4c7b-ba24-fbdc84c37718/6a6dbcd9-9bbc-423e-a84d-7e39fb76d701/IN-en-20210927-popsignuptwoweeks-perspective_alpha_website_large.jpg');
+    background-size: cover;
+    background-position: center center;
+    color:#ffffff;
+}
+
+.fadedOverlay{
+    height:100%;
+    width:100%;
+    background-image:linear-gradient(to bottom,rgba(0,0,0,.8) 0%,rgba(0,0,0,0.2) 60%,rgba(0, 0, 0, .8) 100%);
+}
+
+.header__logo img{
+    width:200px;
+    margin-left:-15px;
+    cursor: pointer;
+}
+
+.banner__header{
+    position: absolute;
+    top:0;
+    width:100%;
+}
+
+.header__container{
+    display: flex;
+    justify-content: space-between;
+    width:93%;
+    margin:auto;
+}
+
+.signIn{
+    background:#e50914;
+    border:none;
+    border-radius:3px;
+    padding:0 17px;
+    padding-top:9px;
+    padding-bottom:8px;
+    color:#ffffff;
+    font-size:16px;
+    margin-top: 30px;
+}
+
+.signIn:hover{
+    cursor:pointer;
+}
+
+.hero__banner__contents{
+    position:absolute;
+    text-align: center;
+    top:27%;   
+    width:100%; 
+}
+
+.hero__banner__contents h1{
+    font-size: 50px; 
+}
+
+.hero__banner__contents h4{
+    font-size: 25px;
+    margin:20px 0;
+}
+
+.hero__banner__contents p{
+    font-size: 20px;
+}
+
+/* .bannerInputs{
+    margin:30px 0;
+    width:100%;
+}
+
+.emailInput{
+    border:none;
+    padding:10px 20px;
+    width: 400px;
+    height: 40px;
+    border:none;
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+}
+
+.buttonInput{
+    background:#e50914;
+    border:none;
+    padding:18px 20px;
+    color:#ffffff;
+    width:200px;
+    font-size: 20px;
+    border:none;
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+    cursor: pointer;
+} */
+
+.startMembership{
+    position: relative;
+    background:#e50914;
+    width: 400px;
+    margin: 30px auto;
+    padding-top: 10px;
+    padding-bottom: 12px;
+    border-radius: 2px;
+    color: white;
+    cursor: pointer;
+}
+
+.faqs{
+    color: #ffffff;
+    background-color: #000000;
+   
+}
+
+.faqs__container{
+    width: 50%;
+    margin: 0 auto;
+    padding: 50px 0;
+}
+
+.faqs .questions{
+    margin: 50px 0;
+}
+
+.faqs h1{
+    font-size: 50px;
+    text-align: center;
+}
+
+.faq-signUp{
+    max-width:640px;
+    margin:0 auto;
+}

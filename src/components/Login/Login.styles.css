@@ -1,0 +1,74 @@
+.login{
+    height: 800px;
+    width: 100%;
+    background-image: url('https://assets.nflxext.com/ffe/siteui/vlv3/45e6f443-8eff-4c7b-ba24-fbdc84c37718/6a6dbcd9-9bbc-423e-a84d-7e39fb76d701/IN-en-20210927-popsignuptwoweeks-perspective_alpha_website_large.jpg');
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+
+.netflix__logo{
+    position: absolute;
+    left: 30px;
+}
+
+.netflix__logo img{
+    width: 200px;
+}
+
+.login h1{
+    margin-bottom: 25px;
+}
+
+.login__card{
+    position: absolute;
+    width: 330px;
+    background-color: rgba(0, 0, 0, 0.75);
+    padding: 65px;
+    margin-top: 100px;
+    padding-bottom: 80px;
+    border-radius: 5px;
+    margin-bottom: 100px;
+}
+
+.login__card form{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 50px;
+}
+
+.login__card input{
+    padding: 13px 15px;
+    background-color: rgb(40, 40, 40);
+    border: none;
+    border-radius: 4px;
+    margin-bottom:10px;
+    color: #ffffff;
+}
+
+.login__card input[type=submit]{
+    background-color: #e50914;
+    margin: 25px 0;
+    cursor: pointer;
+}
+
+.facebookLogin{
+    font-size: 14px;
+    color: #8f8f8f; 
+    cursor: pointer;
+}
+
+.helper{
+    font-size: 16px;
+    margin: 5px 0;
+    color: #8f8f8f;
+}
+
+.highlight{
+    color: white;
+    cursor: pointer;
+}
+
+.login__footer{
+    width: 100%;
+}

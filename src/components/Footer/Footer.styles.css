@@ -1,0 +1,34 @@
+.footer{
+    color: #8f8f8f;
+    background-color: #000000;
+    margin-top: 7px;
+    font-size: 14px;
+}
+
+.footer__container{
+    width: 1000px;
+    margin:0 auto;
+    padding: 50px 40px; 
+}
+
+.footer ul{
+    list-style: none;
+    margin-right: 50px;
+}
+
+.links{
+    display: flex;
+    margin: 30px 50px;
+}
+
+ul li{
+    margin:15px 0;
+}
+
+.call-center{
+    margin-left: 90px;
+}
+
+.country{
+    margin-left: 90px;
+}
